@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import { InputGroup, Button, FormControl } from "react-bootstrap";
+import Image from "next/image";
 
 export default function Topbar() {
   return (
