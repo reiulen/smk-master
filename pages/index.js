@@ -98,7 +98,7 @@ export default function Home() {
         <section className="sambutan">
           <div className="container">
             <div className="card">
-              <div className="card-body d-md-flex py-5">
+              <div className="card-body d-md-flex py-3">
                 <div className="img-sambutan" style={{ backgroundImage: `url('/assets/gambar/profile.jpg')`, height: "300px", width: "100%", backgroundSize: "cover" }}></div>
                 <div className="title-sambutan pt-md-0 pt-4">
                   <h3>Dra. Hj. Nunung Erni N, M.MPd</h3>
@@ -114,8 +114,8 @@ export default function Home() {
           </div>
         </section>
         <section className="berita">
-          <div className="container">
-            <div className="row">
+          <div className="container-fluid">
+            <div className="row px-md-5">
               <div className="col-md-6 berita-unggulan">
                 <div className="header-berita d-flex justify-content-between">
                   <h4>Berita Unggulan</h4>
@@ -123,7 +123,7 @@ export default function Home() {
                 </div>
                 <div className="content-berita">
                   <div className="row">
-                    <div className="col-md-6">
+                    <div className="col-md-6 col-sm-6">
                       <div className="card">
                         <img src="/assets/gambar/default.jpg" />
                         <div className="card-body judul-berita">
@@ -141,7 +141,7 @@ export default function Home() {
                         </div>
                       </div>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-6 col-sm-6">
                       <div className="card">
                         <img src="/assets/gambar/default.jpg" />
                         <div className="card-body judul-berita">
@@ -169,7 +169,7 @@ export default function Home() {
                 </div>
                 <div className="content-berita">
                   <div className="row">
-                    <div className="col-md-6">
+                    <div className="col-md-6 col-sm-6">
                       <div className="card">
                         <img src="/assets/gambar/default.jpg" />
                         <div className="card-body judul-berita">
@@ -187,7 +187,7 @@ export default function Home() {
                         </div>
                       </div>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-6 col-sm-6">
                       <div className="card">
                         <img src="/assets/gambar/default.jpg" />
                         <div className="card-body judul-berita">
@@ -205,7 +205,7 @@ export default function Home() {
                         </div>
                       </div>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-6 col-sm-6">
                       <div className="card">
                         <img src="/assets/gambar/default.jpg" />
                         <div className="card-body judul-berita">
@@ -223,7 +223,7 @@ export default function Home() {
                         </div>
                       </div>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-6 col-sm-6">
                       <div className="card">
                         <img src="/assets/gambar/default.jpg" />
                         <div className="card-body judul-berita">
@@ -282,6 +282,22 @@ export default function Home() {
                         <h5>Pelepasan siswa dan siswi SMKN 1 Ciamis Tahun 2022</h5>
                       </a>
                     </div>
+                    <div className="unpeng-item d-flex my-4">
+                      <div className="date">
+                        <span>20</span> <span>Februari</span> <span>2022</span>
+                      </div>
+                      <a className="text-decoration-none" href="#">
+                        <h5>Pelepasan siswa dan siswi SMKN 1 Ciamis Tahun 2022</h5>
+                      </a>
+                    </div>
+                    <div className="unpeng-item d-flex my-4">
+                      <div className="date">
+                        <span>20</span> <span>Februari</span> <span>2022</span>
+                      </div>
+                      <a className="text-decoration-none" href="#">
+                        <h5>Pelepasan siswa dan siswi SMKN 1 Ciamis Tahun 2022</h5>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -317,6 +333,22 @@ export default function Home() {
                         <h5>Pelepasan siswa dan siswi SMKN 1 Ciamis Tahun 2022</h5>
                       </a>
                     </div>
+                    <div className="unpeng-item d-flex my-4">
+                      <div className="date">
+                        <span>20</span> <span>Februari</span> <span>2022</span>
+                      </div>
+                      <a className="text-decoration-none" href="#">
+                        <h5>Pelepasan siswa dan siswi SMKN 1 Ciamis Tahun 2022</h5>
+                      </a>
+                    </div>
+                    <div className="unpeng-item d-flex my-4">
+                      <div className="date">
+                        <span>20</span> <span>Februari</span> <span>2022</span>
+                      </div>
+                      <a className="text-decoration-none" href="#">
+                        <h5>Pelepasan siswa dan siswi SMKN 1 Ciamis Tahun 2022</h5>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -324,7 +356,7 @@ export default function Home() {
           </div>
         </section>
         <section className="video-multimedia">
-          <div className="container py-5">
+          <div className="container py-4">
             <h3>Video Terbaru MMC</h3>
             <div className="row px-md-0 px-3">
               <div className="col-md-5 mt-3">
@@ -365,7 +397,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-md-7 video d-none d-md-block">
-                <iframe width="100%" height="350px" src="https://www.youtube.com/embed/cT6WqB6fGJQ"></iframe>
+                <iframe width="100%" height="500px" src="https://www.youtube.com/embed/cT6WqB6fGJQ"></iframe>
               </div>
             </div>
           </div>
